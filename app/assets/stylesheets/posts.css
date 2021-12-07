@@ -12,7 +12,7 @@
 .sidebar {
   position: fixed;
   left: -250px;
-  background: rgba(255, 208, 0, 0.568);
+  background: rgba(214, 151, 14, 0.418);
   width: 250px;
   height: 100%;
   transition: all 0.5s;
@@ -20,7 +20,7 @@
 
 .sidebar header {
   font-size:  22px;
-  color: white;
+  color: black;
   text-align: center;
   line-height: 70px;
   background: rgba(69, 36, 130, 0.37);
@@ -56,7 +56,7 @@ label #hambargerBtn,
 label #cancel {
   position: absolute;
   cursor: pointer;
-  background: #b66f2d;
+  background: #110800;
   border-radius: 3px;
 }
 
