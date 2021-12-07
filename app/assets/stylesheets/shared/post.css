@@ -97,10 +97,3 @@ label #cancel {
   left: 195px;
 }
 
-.bg {
-  height: 100vh;
-  background-image: url("./white.jpg");
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s;
-}
