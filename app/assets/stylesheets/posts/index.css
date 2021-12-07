@@ -1,0 +1,99 @@
+.bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./yellow.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg p {
+  position: absolute;
+}
+
+.title-t {
+  font-size:30vw;
+  font-weight:bold;
+  color: transparent;
+  background: repeating-linear-gradient(0deg, #212121 0.1em, #424242 0.3em, #424242 0.4em, #212121 0.5em); 
+  -webkit-background-clip: text;
+}
+
+.title-he {
+  font-size: 13vw;
+  font-weight: bold;
+  padding-left: 20vw;
+  padding-top: 18%;
+}
+
+.title-i {
+  font-size:30vw;
+  padding-left: 40vw;
+  font-weight:bold;
+  color: transparent;
+  background: repeating-linear-gradient(0deg, #212121 0.1em, #424242 0.3em, #424242 0.4em, #212121 0.5em); 
+  -webkit-background-clip: text;
+}
+
+.title-p {
+  font-size: 13vw;
+  font-weight: bold;
+  padding-left: 50vw;
+  padding-top: 16%;
+}
+
+.title-o {
+  font-size: 18vw;
+  font-weight: bold;
+  padding-left: 64vw;
+  padding-top: 13%;
+}
+.title-n {
+  font-size: 14vw;
+  font-weight: bold;
+  padding-left: 81vw;
+  padding-top: 18%;
+}
+
+a.btn-log {
+  font-size: 5vw;
+  font-weight: 700;
+  display: inline-block;
+  padding-top: 70vh;
+  margin-right: 30px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  color: #000;
+  border-bottom: 5px solid #ccc100;
+}
+
+a.btn-log:hover {
+  margin-top: 3px;
+  color: #000;
+  border-bottom: 2px solid #ccc100;
+}
+
+a.btn-new {
+  font-size: 5vw;
+  font-weight: 700;
+  display: inline-block;
+  padding-top: 70vh;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  color: #000;
+  border-bottom: 5px solid #ccc100;
+}
+
+a.btn-new:hover {
+  margin-top: 3px;
+  color: #000;
+  border-bottom: 2px solid #ccc100;
+}
